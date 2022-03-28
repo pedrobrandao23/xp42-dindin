@@ -208,16 +208,27 @@
         justify-content: center;
     }
 
+    .sobre-nos-index h3 {
+        margin: 0 auto 100px 150px;   
+    }
+
     .mais-conteudo-index h2{
-        color: #009688;
-        margin: 0 auto 78px 200px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 50px;
     }
 
     .card-conteudos-index {
         display: flex;
         flex-direction: column;
         width: 420px;
+        align-items: center;
         margin-bottom: 50px;
+    
+    }
+
+    .card-conteudos-index p{
+        text-align: center;
     
     }
 
@@ -233,10 +244,10 @@
 
 @media screen and (max-width: 480px) {  
     .index-banner {
-        /* background-image: url(/xp42-dindin/assets/ilustra-banner.png);
+        background-image: url(/xp42-dindin/assets/ilustra-banner.png);
         background-position: 700px;
         background-position-y: 5%;
-        background-repeat: no-repeat; */
+        background-repeat: no-repeat;
         background-size: 50px;
         height: 500px;
     }  
@@ -258,13 +269,23 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         width: 40%;
         gap: 30px;
     
     }
 
-    .mais-conteudo-index h2{
-        margin: 0 auto 78px 30px;
+    .card-depoimento p {
+        padding-right: 0; 
+
+     }
+
+    .card-conteudos-index {
+       display: flex;
+       flex-direction: column;
+       width: 319px;
+       align-items: center;
+    
     }
 
     .conteudos-button {
