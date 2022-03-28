@@ -155,6 +155,10 @@ footer ul a {
         
         }
 
+        .navbar ul {
+            flex-direction: column;
+        }
+
         .footer-links-buttons ul {
             flex-direction: column;
             /* justify-content: center; */

@@ -201,6 +201,7 @@
 @media screen and (max-width: 768px) {  
     .index-banner {
         background-image: none;
+        height: 500px;
 
     }  
 
@@ -209,8 +210,14 @@
     }
 
     .sobre-nos-index h3 {
-        margin: 0 auto 100px 150px;   
+        text-align: center;
+        margin: 0 10 100px 10px;   
     }
+
+    .card-depoimento p {
+        padding-right: 0px; 
+
+     }
 
     .mais-conteudo-index h2{
         text-align: center;
