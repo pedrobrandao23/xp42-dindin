@@ -107,7 +107,7 @@
     font-weight: 700;
     font-size: 37px;
     color: #009688;
-    margin: 0 auto 78px 120px;
+    margin: 0 auto 78px 105px;
 }
 
 .depoimentos {
@@ -211,7 +211,7 @@
 
     .sobre-nos-index h3 {
         text-align: center;
-        margin: 0 10 100px 10px;   
+        margin: 0 10px 100px 10px;   
     }
 
     .card-depoimento p {
