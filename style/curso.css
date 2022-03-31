@@ -1,0 +1,157 @@
+.intro {
+    background-image: url(/xp42-dindin/assets/ilustra-poupando.png);
+    background-repeat: no-repeat;
+    background-position-x: 75%;
+    background-size: contain;
+
+}
+
+.intro h1 {
+    font-weight: 700;
+    font-size: 55px;
+    color: #FF4081;
+    margin: 130px auto 22px 202px;
+    max-width: 450px;
+    max-height: 126px;
+    
+}
+
+.intro p {
+    font-weight: 300;
+    font-size: 20px;
+    color: #000;
+    margin: 0 auto 115px 202px;
+    max-width: 461px;
+    max-height: 186px;
+}
+
+.aulas {
+    background-color: #F6F6F6;
+    padding-top: 75px;
+    padding-left: 98px;
+    padding-right: 7%;
+    
+}
+
+hr {
+    margin-bottom: 75px;
+    color: #C4C4C4;
+    width: 95%;
+}
+
+.aula{
+    display: flex;
+    padding-bottom: 73px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+img {
+    max-width: 462px;
+    height: 261px; 
+    margin-right: 76px;
+}
+
+.conteudo-aula h2 {
+    font-weight: 700px;
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: #FF4081;
+}
+
+.conteudo-aula p {
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 501px;
+    max-height: 195px;
+}
+
+@media screen and (max-width: 768px) {  
+
+    .intro {
+        background-image: none;
+    
+    }
+    
+    .intro h1 {
+        margin: 100px auto 22px 150px;
+                
+    }
+    
+    .intro p {
+        margin: 0 auto 115px 150px;
+
+    }
+
+    .aulas {
+        padding-left: 7%;
+        padding-right: 7%;
+
+    }
+    
+    hr {
+        width: 100%;
+
+    }
+    
+    .aula{
+        flex-direction: column;
+        padding-bottom: 73px;
+        padding-left: 10%;
+        padding-right: 10%;
+    
+    }
+    
+    img {
+        margin-right: 0;
+        padding-bottom: 20px;
+    }
+    
+    .conteudo-aula p {
+        max-width: 450px;
+
+    }
+}
+
+@media screen and (max-width: 480px) {  
+    .intro h1 {
+        margin: 130px auto 100px 50px;
+        
+    }
+    
+    .intro p {
+        margin: 0 50px 115px 50px;
+        text-align: justify;
+        width: fit-content;
+
+    }
+
+    .aulas {
+        align-items: flex-start;
+        justify-content: center;
+        padding: 50px 20px;
+    }
+    
+    hr {
+        color: #C4C4C4;
+        width: 95%;
+    }
+    
+    .aula{
+        display: flex;
+        align-items: center;
+        justify-content:space-around 
+    
+    }
+    
+    img {
+        max-width: 400px;
+
+    }
+     
+    .conteudo-aula p {
+        text-align: justify;
+    }
+
+}

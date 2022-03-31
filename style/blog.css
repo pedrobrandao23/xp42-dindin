@@ -1,0 +1,104 @@
+.intro-blog {
+    background-image: url(/xp42-dindin/assets/ilustra-blog.png);
+    background-repeat: no-repeat;
+    background-position-x: 825px;
+    padding: 80px 0;
+    margin-bottom: 89px;
+    
+}
+
+.intro-blog h1 {
+    font-weight: 700;
+    font-size: 47px;
+    color: #009688;
+    max-width: 512px;
+    margin: 0 auto 40px 239px;
+
+}
+
+.intro-blog p {
+    font-weight: 300;
+    font-size: 20px;
+    color: #000;
+    max-width: 461px;
+    margin: 0 auto 0 239px;
+}
+
+.blog-post-list {
+    background-color: #E5E5E5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 100px;
+    padding-top: 109px;
+    padding-bottom: 170px;
+}
+
+.blog-post {
+    width: 520px; 
+
+}
+
+.blog-post img {
+    width: 518px;
+    height: 259px;
+    background-color: #C4C4C4;
+    margin-bottom: 19px;
+}
+
+.blog-post a{
+    font-weight: 500;
+    font-size: 30px;
+    color: #FF4081;
+    text-decoration: none;
+
+}
+
+.blog-post p {
+   font-weight: 300;
+   font-size: 17px;
+   color: #000; 
+   margin-top: 19px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .intro-blog h1 {
+        margin: 0 auto 40px 50px;
+    
+    }
+    
+    .intro-blog p {
+        margin: 0 auto 0 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .blog-post {
+        max-width: 520px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .blog-post img {
+        width: 400px;        
+        
+    }
+
+    .blog-post h4{
+        margin: 0 20px;
+        font-size: 25px;
+
+    }
+    
+    .blog-post p {
+        margin: 20px 40px;
+        font-size: 15px;
+    
+    }
+    
+
+}

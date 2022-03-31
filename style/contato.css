@@ -1,0 +1,88 @@
+
+form {
+    background-image: url(/xp42-dindin/assets/ilustra-contato.png);
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    background-position-y: 50%;
+}
+fieldset {
+    display: block;
+    margin: 25px auto 150px 130px;
+    border: none;
+    max-width: 500px;
+
+}
+fieldset legend {
+    display: block;
+    float: left;
+    clear: both;
+    font-size: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FF4081;
+    padding: 25px 0 44px 0;   
+
+}
+fieldset #Nome {
+    display: block;
+    width: 100%;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    height: 32px;
+    padding: 5px;
+    padding-left: 22px;
+
+}
+
+fieldset #email {
+    display: block;
+    width: 100%;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    height: 32px;
+    padding: 5px;
+    padding-left: 22px;
+
+}
+
+fieldset #mensagem {
+    display: block;
+    width: 100%;
+    resize: none; 
+    border: 1px solid #686868;
+    border-radius: 7px;
+    height: 193px;
+    padding: 10px;
+    padding-left: 22px;
+    margin-bottom: 20px;
+
+}
+fieldset #enviar {
+    border: 1px solid #FF4081;
+    background: #FF4081;
+    border-radius: 50px;
+    padding: 5px 30px;
+    color: #fff;
+
+}
+
+.screen-reader-only {
+    color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+    form {
+        background-image: none;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+    fieldset {
+        max-width: 80%;
+        margin: 25px 40px 150px 30px;
+    }
+
+}
+    
